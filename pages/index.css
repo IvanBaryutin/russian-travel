@@ -1,0 +1,90 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/inter.css');
+
+.body{
+  background-color: #2A2C2F;
+}
+
+.page{
+  min-width: 320px;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0 48px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  position: relative;
+  xbackground-color: green;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  xwidth: 80%;
+  xbackground-color: greenyellow;
+  padding: 28px 0px;
+}
+
+.logo{
+  width: 176px;
+  height: 52px;;
+}
+
+.lang-links{
+  margin-top: 28px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+  color: #fff;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.lang-link{
+  color: #fff;
+  margin-left: 18px;
+}
+
+.title{
+  width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: 900;
+  color: #fff;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.subtitle{
+  width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36x;
+  font-weight: normal;
+  color: #fff;
+  font-family: 'Inter', Arial, sans-serif;
+  padding-top: 32px;
+}
+
+.cover{
+  xdisplay: flex;
+
+  justify-content: center;
+  padding: 64px 0 92px 0;
+}
+
+.cover-img{
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+.cover-path{
+  position: absolute;
+}
+
+.cover-title{
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #fff;
+}
