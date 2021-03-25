@@ -18,17 +18,15 @@
 .header{
   display: flex;
   justify-content: space-between;
-  xwidth: 80%;
-  xbackground-color: greenyellow;
   padding: 28px 0px;
 }
 
-.logo{
+.heder__logo{
   width: 176px;
   height: 52px;;
 }
 
-.lang-links{
+.header__lang-links{
   margin-top: 28px;
   font-size: 24px;
   line-height: 28px;
@@ -37,12 +35,25 @@
   font-family: 'Inter', Arial, sans-serif;
 }
 
-.lang-link{
+.header__lang-link{
   color: #fff;
   margin-left: 18px;
+  text-decoration: none;
 }
 
-.title{
+.header__lang-link_active{
+  text-decoration: underline;
+}
+
+.lead{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  xbackground-color: greenyellow;
+}
+
+.lead__title{
   width: 720px;
   margin: 0 auto;
   text-align: center;
@@ -53,7 +64,7 @@
   font-family: 'Inter', Arial, sans-serif;
 }
 
-.subtitle{
+.lead__subtitle{
   width: 640px;
   margin: 0 auto;
   text-align: center;
@@ -65,26 +76,204 @@
   padding-top: 32px;
 }
 
-.cover{
-  xdisplay: flex;
-
-  justify-content: center;
-  padding: 64px 0 92px 0;
-}
-
-.cover-img{
-  position: relative;
+.lead__image{
   margin: 0 auto;
-  display: block;
+  xwidth: 984px;
+  xheight: 615px;
+  padding-top: 64px;
+  xtext-align: center;
+  xjustify-self: center;
 }
 
-.cover-path{
-  position: absolute;
-}
-
-.cover-title{
+.lead__caption{
+  font-family: Inter;
+  font-style: normal;
   font-weight: normal;
   font-size: 10px;
   line-height: 14px;
   color: #fff;
+  xletter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 8px 0;
+}
+
+.intro{
+  width: 984px;
+  xmax-width: 690px;
+  padding: 92px 0 0;
+  margin: 0 auto;
+  text-align: left;
+  xbackground-color: greenyellow;
+}
+
+.intro__title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #fff;
+  margin: 0;
+}
+
+.intro__text{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  max-width: 690px;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.intro__list{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin: 33px 0 92px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.intro__list_weight_normal{
+  font-weight: normal;
+}
+
+.photo-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  xmargin: 0 auto;
+}
+
+.photo-grid__item{
+  width: 284px;
+  height: 213px;
+}
+
+.places{
+  padding: 92px 0px
+}
+
+.places__place{
+  display: grid;
+  grid-template-rows:  auto 460px;
+  grid-template-columns: 460px auto;
+  gap: 48px 40px;
+  padding-bottom: 80px;
+}
+
+.places__title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.places__url-heading{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
+}
+
+.places__link{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.places__image{
+  width: 460px;
+  height: 460px;
+}
+
+.places__text{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+
+}
+
+.places__paragraph{
+  margin: 0 0 26px 0;
+}
+
+
+.cover{
+  display: block;
+  position: relative;
+  background-image: url(../images/cover.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  xmin-height: 790px;
+  margin-top: 12px;
+  margin-bottom: 92px;
+  width: 1184px;
+  height: 740px;
+  background-color: rgb(42, 44, 47, .3);
+}
+
+.cover__title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  text-align: center;
+  color: #FFFFFF;
+  width: 560px;
+  padding: 245px 0 32px;
+  margin: 0 auto;
+}
+
+.cover__subtitle{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
+  color: #FFFFFF;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.footer{
+  margin: 0 auto 24px;
+  display: flex;
+}
+
+.footer__link{
+  margin-right: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  color: #FFFFFF;
+  text-decoration: none;
+
 }
