@@ -7,8 +7,7 @@
 
 .page{
   xmin-width: 320px;
-  max-width: 1184px;
-  margin: 0 auto;
+  xmax-width: 1184px;
   xpadding: 0 48px;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   xposition: relative;
@@ -19,12 +18,12 @@
 }
 
 .header{
-  xdisplay: flex;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  xjustify-content: center;
-  xjustify-content: space-between;
-  padding: 28px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0px 56px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1184px;
 }
 
 .heder__logo{
@@ -56,11 +55,12 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  max-width: 984px;
   xbackground-color: greenyellow;
 }
 
 .lead__title{
-  width: 720px;
+  max-width: 720px;
   margin: 0 auto;
   text-align: center;
   font-size: 96px;
@@ -71,7 +71,7 @@
 }
 
 .lead__subtitle{
-  width: 640px;
+  max-width: 640px;
   margin: 0 auto;
   text-align: center;
   font-size: 30px;
@@ -79,16 +79,29 @@
   font-weight: normal;
   color: #fff;
   font-family: 'Inter', Arial, sans-serif;
-  padding-top: 32px;
+  padding: 32px 0 64px;
 }
 
 .lead__image{
   margin: 0 auto;
-  xwidth: 984px;
-  xheight: 615px;
-  padding-top: 64px;
+  width: 984px;
+  height: 615px;
+  xpadding-top: 64px;
+  position: relative;
+  background-image: url(../images/kalegin-michail-179870-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
   xtext-align: center;
   xjustify-self: center;
+}
+
+.lead__path{
+  position: absolute;
+  xtop: 20%;
+  bottom: 262px;
+  left: 3%;
 }
 
 .lead__caption{
@@ -100,7 +113,7 @@
   color: #fff;
   xletter-spacing: 0.15em;
   text-transform: uppercase;
-  margin: 8px 0;
+  margin: 8px 0 0;
 }
 
 .intro{
@@ -150,6 +163,7 @@
   font-weight: normal;
 }
 
+
 .photo-grid{
   display: grid;
   grid-template-columns: repeat(auto-fill, 284px);
@@ -158,6 +172,8 @@
   xmargin: 0 auto;
   justify-content: center;
   xalign-content: center;
+  max-width: 1184px;
+  margin: 0 auto;
 }
 
 .photo-grid__item{
@@ -165,17 +181,20 @@
   height: 213px;
 }
 
+
 .places{
-  padding: 92px 0px
-  wxidth: 1184px;
+  padding: 88px 0 0;
+  max-width: 1184px;
+  margin: 0 auto;
 }
 
 .places__place{
   display: grid;
-  grid-template-rows:  auto 460px;
-  grid-template-columns: 460px auto;
+  grid-template-columns: repeat(auto-fill, 484px);
+  grid-template-rows:  auto auto;
   gap: 48px 40px;
   padding-bottom: 80px;
+  justify-content: center;
 }
 
 .places__title{
@@ -232,14 +251,15 @@
   display: block;
   position: relative;
   background-image: url(../images/cover.jpg);
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   xmin-height: 790px;
   margin-top: 12px;
   margin-bottom: 92px;
-  width: 1184px;
+  max-width: 1184px;
   height: 740px;
   background-color: rgb(42, 44, 47, .3);
+  margin: 0 auto;
 }
 
 .cover__title{
@@ -270,8 +290,16 @@
 }
 
 .footer{
-  margin: 0 auto 24px;
   display: flex;
+  justify-content: space-between;
+  padding: 28px 0px 56px;
+  margin: 0 auto;
+  xposition: relative;
+  max-width: 1184px;
+}
+
+.footer__links{
+  display: block;
 }
 
 .footer__link{
@@ -284,5 +312,15 @@
   /* identical to box height, or 112% */
   color: #FFFFFF;
   text-decoration: none;
+}
 
+.footer__copyright{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+/* identical to box height, or 114% */
+color: #FFFFFF;
+  text-align: right;
 }
