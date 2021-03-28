@@ -1,4 +1,33 @@
 .cover__overlay{
-  background-color: rgb(42, 44, 47, .7);
-  height: 100%;
+  display: block;
+  position: relative;
+  background-image: url(../../../images/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 12px;
+  margin-bottom: 92px;
+  max-width: 1184px;
+  height: 740px;
+  margin: 0 auto;
+  z-index: 1;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cover__overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cover__overlay:hover::after{
+  opacity: 0.8;
 }

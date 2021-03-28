@@ -1,13 +1,3 @@
 .cover{
-  display: block;
-  position: relative;
-  background-image: url(../../images/cover.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 12px;
-  margin-bottom: 92px;
-  max-width: 1184px;
-  height: 740px;
-  margin: 0 auto;
+
 }
