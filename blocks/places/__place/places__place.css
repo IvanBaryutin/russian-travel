@@ -1,8 +1,7 @@
 .places__place{
   display: grid;
-  grid-template-columns: repeat(auto-fill, 484px);
+  grid-template-columns: repeat(auto-fill, 460px);
   grid-template-rows:  auto auto;
   gap: 48px 40px;
   padding-bottom: 80px;
-  justify-content: center;
 }
