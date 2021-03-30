@@ -4,19 +4,19 @@
   margin: 0 auto;
 }
 
-@media (max-width : 1050px) {
+@media (max-width: 1050px) {
   .places{
     padding: 92px 48px 0;
   }
 }
 
-@media (max-width : 770px) {
+@media (max-width: 770px) {
   .places{
     padding: 92px 24px 0;
   }
 }
 
-@media (max-width : 350px) {
+@media (max-width: 350px) {
   .places{
     padding: 64px 0 0;
   }

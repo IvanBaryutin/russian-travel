@@ -9,20 +9,20 @@
   margin: 0 auto;
 }
 
-@media (max-width : 1050px) {
+@media (max-width: 1050px) {
   .cover__title{
     padding: 195px 0 32px;
   }
 }
 
 
-@media (max-width : 770px) {
+@media (max-width: 770px) {
   .cover__title{
     padding: 115px 0 32px;
   }
 }
 
-@media (max-width : 350px) {
+@media (max-width: 350px) {
   .cover__title{
     font-size: 32px;
     line-height: 35px;

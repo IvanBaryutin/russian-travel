@@ -6,7 +6,7 @@
   text-align: right;
 }
 
-@media (max-width : 350px) {
+@media (max-width: 350px) {
   .footer__copyright{
     text-align: left;
     margin-top: 16px;

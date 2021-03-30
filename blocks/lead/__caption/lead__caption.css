@@ -8,14 +8,14 @@
   letter-spacing: 0.15em;
 }
 
-@media (max-width : 770px) {
+@media (max-width: 770px) {
   .lead__caption{
     padding-left: 16px;
   }
 }
 
 
-@media (max-width : 350px) {
+@media (max-width: 350px) {
   .lead__caption{
     padding-left: 16px;
   }

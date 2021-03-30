@@ -12,7 +12,7 @@
   text-decoration: underline;
 }
 
-@media (max-width : 350px) {
+@media (max-width: 350px) {
   .footer__link{
     margin-bottom: 32px;
     font-size: 24px;

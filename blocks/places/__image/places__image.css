@@ -2,12 +2,7 @@
   width: 100%;
 }
 
-/*@media (max-width : 770px) {
-  .places__image{
-  }
-}*/
-
-@media (max-width : 350px) {
+@media (max-width: 350px) {
   .places__image{
     padding-left: 0;
   }
