@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+.footer__link:hover{
+  text-decoration: underline;
+}
+
 @media (max-width : 350px) {
   .footer__link{
     margin-bottom: 32px;

@@ -6,3 +6,7 @@
   text-decoration-line: underline;
   color: #fff;
 }
+
+.places__link:hover{
+  text-decoration-line: none;
+}
