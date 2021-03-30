@@ -6,3 +6,15 @@
   letter-spacing: 0.2em;
   color: #aaa;
 }
+
+@media (max-width : 770px) {
+  .places__url-heading{
+    margin-top: 0;
+  }
+}
+
+@media (max-width : 350px) {
+  .places__url-heading{
+    margin-top: 0;
+  }
+}

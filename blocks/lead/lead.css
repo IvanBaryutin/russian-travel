@@ -5,3 +5,17 @@
   margin: 0 auto;
   max-width: 984px;
 }
+
+@media (max-width : 1050px) {
+  .lead{
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media (max-width : 770px) {
+  .lead{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

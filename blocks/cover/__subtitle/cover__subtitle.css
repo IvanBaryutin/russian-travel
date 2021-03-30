@@ -4,6 +4,27 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  width: 360px;
+  max-width: 360px;
+  padding-bottom: 245px;
   margin: 0 auto;
+}
+
+@media (max-width : 1050px) {
+  .cover__subtitle{
+    padding-bottom: 195px;
+  }
+}
+
+@media (max-width : 770px) {
+  .cover__subtitle{
+    padding-bottom: 115px;
+  }
+}
+
+@media (max-width : 350px) {
+  .cover__subtitle{
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 16px 33px;
+  }
 }

@@ -4,3 +4,17 @@
   font-size: 18px;
   line-height: 29px;
 }
+
+@media (max-width : 770px) {
+  .places__text{
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width : 350px) {
+  .places__text{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

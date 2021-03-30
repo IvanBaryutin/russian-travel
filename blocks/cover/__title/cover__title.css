@@ -4,7 +4,28 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  width: 560px;
+  max-width: 560px;
   padding: 245px 0 32px;
   margin: 0 auto;
+}
+
+@media (max-width : 1050px) {
+  .cover__title{
+    padding: 195px 0 32px;
+  }
+}
+
+
+@media (max-width : 770px) {
+  .cover__title{
+    padding: 115px 0 32px;
+  }
+}
+
+@media (max-width : 350px) {
+  .cover__title{
+    font-size: 32px;
+    line-height: 35px;
+    padding: 33px 16px 16px;
+  }
 }
