@@ -5,20 +5,20 @@
   text-align: left;
 }
 
-@media (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
   .intro{
     padding: 92px 48px 0;
   }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .intro{
     padding: 88px 24px 0;
   }
 }
 
 
-@media (max-width: 350px) {
+@media screen and (max-width: 350px) {
   .intro{
     padding: 64px 16px 0;
   }
