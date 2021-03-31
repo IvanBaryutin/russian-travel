@@ -1,8 +1,12 @@
 .header__lang-links{
-  margin-top: 28px;
+  list-style-type: none;
+  margin: 18px 0 0;
+  padding: 0;
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
+  display: flex;
+  justify-content: right;
 }
 
 @media screen and (max-width: 350px) {
